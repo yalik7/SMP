@@ -1,0 +1,27 @@
+name: SGP
+version: ${project.version}
+main: com.yomama.sgp.SGP
+api-version: 1.17
+description: SG main plugin
+authors: [Santa]
+
+softdepend:
+  - TitleApi
+
+commands:
+  smallgamesadmin:
+    aliases:
+      - sga
+    description: Main admin command of the server.
+    permission: op
+    permission-message: Unknown command. Type "/help" for help.
+  smallgames:
+    aliases:
+      - sg
+    description: Main command of the server.
+  invisibleitemframe:
+    aliases:
+      - iif
+    description: Give you or someone else invisible item frame
+    permission: op
+    permission-message: Unknown command. Type "/help" for help.
